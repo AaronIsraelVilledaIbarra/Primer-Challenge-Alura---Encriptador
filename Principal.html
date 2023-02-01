@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es"> 
+    
+    <head>
+
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador de Texto - Primer challenge Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+       
+    <body>
+
+        <header>
+            <div class="logoA">
+                <h1><img src="Imagenes/ImagenLogoAlura.png" alt="Logo de Alura"></h1>
+            </div>
+        </header>
+
+        <main>
+            <!-- espacio derecho, donde van los botones de encriptar y el espacio para introducir -->
+            <section></section>
+                
+                <div>
+                    <textarea class="ingresotexto">Ingrese el texto aquí</textarea>
+                </div>
+        
+                <div class="frame1">
+                    <h1><img src="Imagenes/exclamacioncirculo.png"></h1>
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+
+                <div class="botones">
+                    <button class="encriptar" onclick="botonEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+                
+                </div>
+
+            <!-- Espacio izquierdo, donde va la seccion que muestra el testo resultado y el boton copiar -->
+            <section>
+
+                <div>
+                    <textarea class="textoresultado">Ningún texto fue encontrado</textarea>
+                </div>
+
+                <div class="copiar">
+                    <button class="botoncopiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+
+    <script src="script.js"></script>
+
+    </body>
+
+</html>
+
+    
